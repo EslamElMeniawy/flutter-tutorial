@@ -1,0 +1,224 @@
+# Flutter Tutorial Projects
+
+A collection of Flutter tutorial projects demonstrating various concepts, patterns, and best practices for building mobile applications with Flutter.
+
+## 📚 Projects Overview
+
+### 1. Basics
+**Location:** `basics/`
+
+A foundational Flutter project introducing core concepts:
+- Stateful and stateless widgets
+- Custom gradient containers
+- Interactive dice roller
+- Basic widget composition and styling
+
+**Key Concepts:**
+- Widget lifecycle
+- State management basics
+- Custom styling and colors
+- Asset integration
+
+---
+
+### 2. Advanced Basics (Quiz App)
+**Location:** `adv_basics/`
+
+An interactive quiz application building upon fundamental concepts:
+- Multiple screen navigation
+- Data models and collections
+- User interaction handling
+- Results summary with question review
+
+**Key Concepts:**
+- Screen transitions
+- State management across screens
+- Data modeling
+- List rendering and mapping
+- User input handling
+
+---
+
+### 3. Expense Tracker
+**Location:** `expense_tracker/`
+
+A personal expense tracking application with advanced UI features:
+- Add, edit, and delete expenses
+- Category-based organization
+- Light and dark theme support
+- Responsive design
+
+**Key Concepts:**
+- Forms and user input validation
+- Theme management
+- CRUD operations
+- Material Design 3
+- Color schemes and theming
+
+---
+
+### 4. Meals App
+**Location:** `meals/`
+
+A meals browsing and favorites management application:
+- Browse meals by category
+- Filter meals by dietary preferences
+- Favorite meals management
+- Tab-based navigation
+
+**Key Concepts:**
+- Riverpod state management
+- Provider pattern
+- Tab navigation
+- Filtering and searching
+- Google Fonts integration
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Flutter SDK (latest stable version)
+- Dart SDK
+- An IDE (VS Code, Android Studio, or IntelliJ IDEA)
+- iOS Simulator (for macOS) or Android Emulator
+
+### Installation
+
+1. Clone this repository:
+```bash
+git clone https://github.com/EslamElMeniawy/flutter-tutorial.git
+cd flutter-tutorial
+```
+
+2. Navigate to any project folder:
+```bash
+cd basics
+```
+
+3. Install dependencies:
+```bash
+flutter pub get
+```
+
+4. Run the project:
+```bash
+flutter run
+```
+
+---
+
+## 📱 Running on Different Platforms
+
+Each project supports multiple platforms:
+
+```bash
+# Run on iOS Simulator
+flutter run -d ios
+
+# Run on Android Emulator
+flutter run -d android
+
+# Run on Web
+flutter run -d chrome
+
+# Run on macOS
+flutter run -d macos
+
+# Run on Linux
+flutter run -d linux
+
+# Run on Windows
+flutter run -d windows
+```
+
+---
+
+## 🛠️ Project Structure
+
+Each project follows standard Flutter architecture:
+
+```
+project/
+├── lib/              # Main application code
+├── assets/           # Images, fonts, and other assets
+├── test/             # Unit and widget tests
+├── android/          # Android-specific configuration
+├── ios/              # iOS-specific configuration
+├── web/              # Web-specific configuration
+├── macos/            # macOS-specific configuration
+├── linux/            # Linux-specific configuration
+├── windows/          # Windows-specific configuration
+└── pubspec.yaml      # Project dependencies and metadata
+```
+
+---
+
+## 📖 Learning Path
+
+For optimal learning, it's recommended to explore the projects in this order:
+
+1. **basics** - Learn fundamental Flutter concepts
+2. **adv_basics** - Build upon basics with navigation and state
+3. **expense_tracker** - Master theming and form handling
+4. **meals** - Understand advanced state management with Riverpod
+
+---
+
+## 🔧 Key Dependencies
+
+### Basics
+- `flutter` - Core framework
+
+### Advanced Basics
+- `flutter` - Core framework
+
+### Expense Tracker
+- `flutter` - Core framework
+- `uuid` - Unique ID generation
+- `intl` - Internationalization and date formatting
+
+### Meals
+- `flutter` - Core framework
+- `flutter_riverpod` - State management
+- `google_fonts` - Custom fonts
+- `transparent_image` - Image loading optimization
+
+---
+
+## 📝 Notes
+
+- Each project is self-contained and can be run independently
+- Projects follow Flutter best practices and Material Design guidelines
+- Code is well-commented for learning purposes
+- All projects support hot reload for rapid development
+
+---
+
+## 🤝 Contributing
+
+This is a tutorial repository for learning purposes. Feel free to fork and experiment with the code!
+
+---
+
+## 📄 License
+
+This project is open source and available for educational purposes.
+
+---
+
+## 👤 Author
+
+**Eslam El Meniawy**
+
+- GitHub: [@EslamElMeniawy](https://github.com/EslamElMeniawy)
+
+---
+
+## 🌟 Acknowledgments
+
+These projects are created for learning and teaching Flutter development concepts.
+
+---
+
+**Happy Coding! 🎉**
