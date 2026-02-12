@@ -75,6 +75,28 @@ A meals browsing and favorites management application:
 
 ---
 
+### 5. Shopping List (Grocery List)
+**Location:** `shopping_list/`
+
+A grocery list application with Firebase backend integration:
+- Add new grocery items with categories
+- Delete items from the list
+- Category-based organization with custom colors
+- Dark theme UI
+- HTTP requests to Firebase Realtime Database
+- State management with async operations
+
+**Key Concepts:**
+- HTTP client integration
+- Firebase Realtime Database
+- Async/await patterns
+- Future handling
+- JSON parsing and serialization
+- CRUD operations with backend
+- Error handling
+
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -161,7 +183,8 @@ For optimal learning, it's recommended to explore the projects in this order:
 1. **basics** - Learn fundamental Flutter concepts
 2. **adv_basics** - Build upon basics with navigation and state
 3. **expense_tracker** - Master theming and form handling
-4. **meals** - Understand advanced state management with Riverpod
+4. **shopping_list** - Learn HTTP integration and Firebase backend communication
+5. **meals** - Understand advanced state management with Riverpod
 
 ---
 
@@ -176,6 +199,11 @@ For optimal learning, it's recommended to explore the projects in this order:
 ### Expense Tracker
 - `flutter` - Core framework
 - `uuid` - Unique ID generation
+- `intl` - Internationalization and date formatting
+
+### Shopping List
+- `flutter` - Core framework
+- `http` - HTTP client for API requests
 - `intl` - Internationalization and date formatting
 
 ### Meals
