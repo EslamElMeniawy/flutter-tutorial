@@ -3,7 +3,7 @@
 Use this checklist to verify your API keys are properly configured in Google Cloud Console.
 
 ## Key 1: Android Native SDK
-**Key ID**: `AIzaSyDcc487-PMkw9vypxr_bY8LPkIWm6u-6D0`  
+**Key ID**: `YOUR_ANDROID_MAPS_API_KEY`  
 **Location**: `android/local.properties`
 
 ### Required APIs
@@ -16,7 +16,7 @@ Use this checklist to verify your API keys are properly configured in Google Clo
 ---
 
 ## Key 2: iOS Native SDK  
-**Key ID**: `AIzaSyCNVjjf6aQCwLtzDdvi_xD9pBoCoMuL2Y0`  
+**Key ID**: `YOUR_IOS_MAPS_API_KEY`  
 **Location**: `ios/Runner/GoogleService.xcconfig`
 
 ### Required APIs
@@ -29,7 +29,7 @@ Use this checklist to verify your API keys are properly configured in Google Clo
 ---
 
 ## Key 3: API Calls (HTTP Requests)
-**Key ID**: `AIzaSyDLcwxUggpPZo8lcbH0TB4Crq5SJjtj4ag`  
+**Key ID**: `YOUR_API_CALLS_KEY`  
 **Location**: `lib/config/api_keys.dart`
 
 ### Required APIs
