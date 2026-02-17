@@ -97,6 +97,29 @@ A grocery list application with Firebase backend integration:
 
 ---
 
+### 6. Favorite Places
+**Location:** `favorite_places/`
+
+A location-based application for discovering, saving, and managing favorite places:
+- Add places with photos and current location
+- Interactive Google Maps visualization
+- Capture images from camera or gallery
+- Get location coordinates and addresses via geocoding
+- Local persistence using SQLite database
+- Place details with location information
+
+**Key Concepts:**
+- Google Maps integration
+- Platform-specific APIs (location, camera)
+- Image picker and file handling
+- Riverpod state management
+- SQLite database for persistence
+- HTTP requests for geocoding API
+- Async/await patterns
+- Google Fonts typography
+
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -185,6 +208,7 @@ For optimal learning, it's recommended to explore the projects in this order:
 3. **expense_tracker** - Master theming and form handling
 4. **shopping_list** - Learn HTTP integration and Firebase backend communication
 5. **meals** - Understand advanced state management with Riverpod
+6. **favorite_places** - Master platform integration, maps, and location services
 
 ---
 
@@ -211,6 +235,18 @@ For optimal learning, it's recommended to explore the projects in this order:
 - `flutter_riverpod` - State management
 - `google_fonts` - Custom fonts
 - `transparent_image` - Image loading optimization
+
+### Favorite Places
+- `flutter` - Core framework
+- `flutter_riverpod` - State management
+- `google_maps_flutter` - Interactive maps
+- `image_picker` - Camera and gallery access
+- `location` - Device location services
+- `http` - HTTP requests for geocoding
+- `sqflite` - Local SQLite database
+- `google_fonts` - Custom typography
+- `uuid` - Unique ID generation
+- `path_provider` - Platform-specific app directories
 
 ---
 
