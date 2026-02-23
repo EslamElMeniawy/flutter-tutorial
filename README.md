@@ -120,6 +120,26 @@ A location-based application for discovering, saving, and managing favorite plac
 
 ---
 
+### 7. Chat App
+**Location:** `chat_app/`
+
+A real-time chat application with Firebase integration:
+- User authentication (sign up, login)
+- Real-time messaging with Firestore
+- User profile image upload
+- Responsive chat UI
+- Platform support for mobile, web, and desktop
+
+**Key Concepts:**
+- Firebase Authentication
+- Cloud Firestore database
+- Image upload and storage
+- Stream-based UI updates
+- Custom widgets for chat bubbles and message input
+- Platform adaptation
+
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -209,6 +229,7 @@ For optimal learning, it's recommended to explore the projects in this order:
 4. **shopping_list** - Learn HTTP integration and Firebase backend communication
 5. **meals** - Understand advanced state management with Riverpod
 6. **favorite_places** - Master platform integration, maps, and location services
+7. **chat_app** - Build a real-time chat app with Firebase
 
 ---
 
@@ -247,6 +268,13 @@ For optimal learning, it's recommended to explore the projects in this order:
 - `google_fonts` - Custom typography
 - `uuid` - Unique ID generation
 - `path_provider` - Platform-specific app directories
+
+### Chat App
+- `flutter` - Core framework
+- `firebase_core` - Firebase initialization
+- `firebase_auth` - User authentication
+- `cloud_firestore` - Real-time database
+- `firebase_storage` - Image upload and storage
 
 ---
 
